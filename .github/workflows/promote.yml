@@ -10,7 +10,7 @@ on:
       source_env:
         description: 'Source environment'
         required: true
-        default: 'qa' 
+        default: 'staging' 
         type: choice
         options:
         - qa
@@ -19,7 +19,7 @@ on:
       target_env:
         description: 'Target environment'
         required: true
-        default: 'staging' 
+        default: 'production' 
         type: choice
         options:
         - qa
